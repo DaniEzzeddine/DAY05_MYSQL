@@ -1,0 +1,1 @@
+SELECT summary, title FROM film WHERE (film.summary LIKE '%42%' OR film.title LIKE '%42%') ORDER BY film.duration ASC
